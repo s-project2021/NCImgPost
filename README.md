@@ -3,18 +3,14 @@
 言語はpythonを用いています。
 
 
-# Features
- Digest認証を用いているため、安全な通信をすることができるようになっています。
-
 
 # Requirement
 * Python 3.9.6
 
-https://github.com/s-project2021/SC_NCImgPost
 
 
 # Installation
-
+pip opencv
 python res2.py
 
 
