@@ -10,7 +10,11 @@
 
 
 # Installation
-pip opencv
+pip install opencv-python
+
+pip install urllib3
+
+pip install requests
 
 python res2.py
 
