@@ -9,7 +9,7 @@
 
 # Requirement
 * Python 3.9.6
-* 
+
 https://github.com/s-project2021/SC_NCImgPost
 
 
