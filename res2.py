@@ -60,10 +60,9 @@ if __name__ == '__main__':
     toPath = 'http://192.168.11.2/photo/in/'
 
     ## 取得するAddr, 認証ID
-    #fromPath = 'https://www.ne.senshu-u.ac.jp/~proj2021-19/img/logo.png'
-    fromPath = 'http://192.168.11.100:13626/snapshot.jpg'
+    fromPath = 'http://**********/snapshot.jpg'
     username = 'admin'
-    pw = 'ne191114'
+    pw = '******'
 
     ## 画像取得間隔（秒）,  繰り返し回数
     capture_interval, count = 1, 3
