@@ -22,7 +22,7 @@ python res2.py
 # Usage
 * toPathに送信先サーバのアドレスを指定
 * fromPathに取得元カメラのアドレスを指定
-* 必要に応じてBASIC認証のIDとPWを指定
+* 必要に応じて Digest認証のIDとPWを指定
 
 
 # License　
