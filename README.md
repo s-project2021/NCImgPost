@@ -1,33 +1,32 @@
-# Physics_Sim_Py
-"SC_ NCimgPost" は「ネットワークカメラから受け取った画像をbase64でエンコードし、jsonで送信するプログラム」です。
-言語はpythonを用いています。
-
+# NCimgPost
+ネットワークカメラから画像を取得し、bsae64にエンコードしたものをjson形式でサーバにPostします。
 
 
 # Requirement
 * Python 3.9.6
-
+* HTTPで画像取得できるネットワークカメラ(検証:TS-WRLC)
 
 
 # Installation
+```sh
 pip install opencv-python
-
 pip install urllib3
-
 pip install requests
+```
 
-python res2.py
-
+# Run
+```sh
+python res.py
+```
 
 # Usage
-* toPathに送信先サーバのアドレスを指定
-* fromPathに取得元カメラのアドレスを指定
+* `toPath`に送信先サーバのアドレスを指定
+* `fromPath`に取得元カメラのアドレスを指定
 * 必要に応じて Digest認証のIDとPWを指定
 
 
 # License　
-
-"SC_ NCimgPost" is under [gpl3.0](https://www.gnu.org/licenses/gpl-3.0.txt).
+- [GPL 3.0](https://www.gnu.org/licenses/gpl-3.0.txt)
 
 
 
