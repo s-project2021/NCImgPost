@@ -14,8 +14,8 @@ import json
     #os.mkdir(date)   # 画像保存用のフォルダ作製
 img_list=[]
 
-## BASIC認証関係
-def setup_basic_auth(base_uri, user, password):
+## Digest認証関係
+def setup_digest_auth(base_uri, user, password):
     password_mgr = urllib.request.HTTPPasswordMgrWithDefaultRealm()
     password_mgr.add_password(
             realm=None,
@@ -57,7 +57,7 @@ def pic_post(fromPath, toPath, capture_interval):
 
 if __name__ == '__main__':
     ## 送信先Addr
-    toPath = 'http://192.168.11.2/photo/in/'
+    toPath = 'http://**********/photo/in/'
 
     ## 取得するAddr, 認証ID
     fromPath = 'http://**********/snapshot.jpg'
@@ -68,5 +68,5 @@ if __name__ == '__main__':
     capture_interval, count = 1, 3
     ## 画像取得
 
-    setup_basic_auth(fromPath, username, pw)
+    setup_digest_auth(fromPath, username, pw)
     pic_post(fromPath,toPath, capture_interval)
